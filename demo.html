@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .score{
+        background: linear-gradient(180deg, #CE2E44, #FEBAC6);
+        color: white;
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .place{
+        background: linear-gradient(180deg, #CE2E44, #FEBAC6);
+        height: 200px;
+        width: 120px;
+    }
+
+    .trapezoid {
+            width: 120px;
+            height: 0;
+            border-bottom: 15px solid #FEBAC6;
+            border-left: 16px solid transparent;
+            border-right: 0px solid transparent;
+}
+
+.trapezoid-1 {
+            width: 120px;
+            height: 0;
+            border-bottom: 20px solid #F7CE36;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+}
+
+.place-1{
+        background: linear-gradient(180deg, #CE2E44, #F7CE36);
+        height: 235px;
+        width: 120px;
+    }
+
+.trapezoid-3 {
+            width: 120px;
+            height: 0;
+            border-bottom: 15px solid #9747ff74;
+            border-left: 0px solid transparent;
+            border-right: 16px solid transparent;
+}
+
+.place-3{
+        background: linear-gradient(180deg, #9747FF, #9747ff74);
+        height: 150px;
+        width: 120px;
+    }
+
+.placing{
+    font-size: 120px;
+    font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="d-flex flex-column align-items-center">
+            <div class="profile text-center">
+                <img src="assets/img/icons/profiles/Profile1.png" alt="">
+                <h5>Phuong linh</h5>
+                <div class="score">
+                    1000 điểm
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="trapezoid"></div>
+                <div class="place text-white d-flex text-center" style="align-items: center; place-content: center;">
+                    <div class="placing">
+                        <p>
+                            2
+                        </p>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="d-flex flex-column align-items-center" style="margin-top: -40px">
+            <div class="profile text-center">
+                <img src="assets/img/icons/profiles/Profile1.png" alt="">
+                <h5>Phuong linh</h5>
+                <div class="score">
+                    1000 điểm
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="trapezoid-1"></div>
+                <div class="place-1 text-white d-flex text-center" style="align-items: center; place-content: center;">
+                    <div class="placing">
+                        <p>
+                            1
+                        </p>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="d-flex flex-column align-items-center" style="margin-top: 20px;">
+            <div class="profile text-center">
+                <img src="assets/img/icons/profiles/Profile1.png" alt="">
+                <h5>Phuong linh</h5>
+                <div class="score">
+                    1000 điểm
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="trapezoid-3"></div>
+                <div class="place-3 text-white d-flex text-center" style="align-items: center; place-content: center;">
+                    <div class="placing">
+                        <p>
+                            3
+                        </p>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+  </div>
+</body>
+</html>
